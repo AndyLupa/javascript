@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+form{
+    display: flex;
+    width: 80%;
+    height: 30%;
+    border: 1em solid rgb(230, 234, 247);
+}
+
+#sec_triangulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+
+input{
+    width: 50px;
+}
+
+button{
+    width: 150px;
+    height: 25px;
+}

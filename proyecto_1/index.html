@@ -17,10 +17,28 @@
                 <button type="button" onclick="calcular_perimetro_cuadrdo()">Calcular perímetro</button>
                 <button type="button" onclick="calcular_area_cuadrdo()">Calcular área</button>
             </form>
+
+            <form action="">
+                <label for="">Escribe cuanto mide cada lado del triangulo</label>
+
+                <section id="sec_triangulo">
+                    <label for="inputTriangulo">Lado1</label>
+                    <input id="inputTriangulo" type="number">
+                    <label for="inputTriangulo2">Lado2</label>
+                    <input id="inputTriangulo2" type="number">
+                    <label for="inputTriangulo3">Base</label>
+                    <input id="inputTriangulo3" type="number">
+                    <label for="inputTrianguloAltura">Escribe cuanto mide la altura del triangulo</label>
+                    <input id="inputTrianguloAltura" type="number">
+                </section>
+                <button type="button" onclick="calcular_perimetro_triangulo()">Calcular perímetro</button>
+                <button type="button" onclick="calcular_area_triangulo()">Calcular área</button>
+            </form>
+
         </section>
     </header>
 
-    
+    <link rel="stylesheet" href="./css.css">
     <script src="./js.js"></script>
 </body>
 </html>
